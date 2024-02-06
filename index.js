@@ -64,3 +64,13 @@ function generate() {
       console.error(error);
     });
 }
+
+// function to write README file
+function writeToFile(fileName, data) {
+  fs.writeFile(fileName, data, err =>
+    err ? console.error(err) : console.log('README generated successfully!')
+  );
+}
+
+// function call to initialize program
+generate();
