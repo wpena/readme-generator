@@ -15,7 +15,7 @@ To run the application locally, follow the following steps:
 - A new README file will be generated
 
 ## Result
-**README Generator Walkthrough Video:** https://drive.google.com/file/d/1pfq0YK9_IVsR0Ncc5XMyCd0_OB4WcixQ/view?usp=drive_link  
+**README Generator Walkthrough Video:** [https://drive.google.com/file/d/1pfq0YK9_IVsR0Ncc5XMyCd0_OB4WcixQ/view?usp=drive_link](https://drive.google.com/file/d/1pfq0YK9_IVsR0Ncc5XMyCd0_OB4WcixQ/view?usp=sharing)  
 **Expected Result:**  
 ![readme-generator-walkthrough](https://github.com/wpena/readme-generator/assets/38634790/7357c182-9591-429c-9d80-c1c2c02c2f07)
 
