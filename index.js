@@ -5,6 +5,13 @@ const inquirer = require('inquirer');
 const fs = require('fs');
 const generateMarkdown = require('./assets/js/generateMarkdown');
 
+// Validate email function
+function validateEmail(email) {
+  // Regular expression for email validation
+  const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+  return emailRegex.test(email) ? true : "Please enter a valid email address";
+}
+
 // function for user input and initialize application
 function generate() {
   inquirer
@@ -53,7 +60,8 @@ function generate() {
       {
         type: 'input',
         name: 'email',
-        message: 'Enter your email address:'
+        message: 'Enter your email address:',
+        validate: validateEmail
       }
     ])
     .then(answers => {
