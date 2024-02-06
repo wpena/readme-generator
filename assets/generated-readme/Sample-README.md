@@ -30,6 +30,6 @@ Open Source
 No tests were taken
 
 ## Questions
-Github: [penaw](https://github.com/penaw)
+Github: [wpena](https://github.com/wpena)
 
 For any additional questions, please contact me at penawalin@gmail.com.
